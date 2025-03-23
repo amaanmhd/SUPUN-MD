@@ -6,10 +6,10 @@ function convertToBool(text, fault = 'true') {
 }
 
 module.exports = {
-SESSION_ID: process.env.SESSION_ID === undefined ? 'enter your session id' : process.env.SESSION_ID,
+SESSION_ID: process.env.SESSION_ID === undefined ? 'SUPUN-MD=nZdzgSwK#ZneQi4SBnw1iG_XXKW6EviAjkJijQzr6vTNUtXQS2q0' : process.env.SESSION_ID,
 PREFIX: process.env.PREFIX || '.' ,
 PORT: process.env.PORT === undefined ? "8000" : process.env.PORT,
-OWNER_NUMBER: process.env.OWNER_NUMBER === undefined ? '94718461889' : process.env.OWNER_NUMBER,
+OWNER_NUMBER: process.env.OWNER_NUMBER === undefined ? '94774833828' : process.env.OWNER_NUMBER,
 MODE: process.env.MODE === undefined ?"public" : process.env.MODE,
 AUTO_READ_STATUS: process.env.AUTO_READ_STATUS === undefined ?"true" : process.env.AUTO_READ_STATUS,
 AUTO_STATUS_REACT: process.env.AUTO_STATUS_REACT === undefined ?"true" : process.env.AUTO_STATUS_REACT,
@@ -34,7 +34,7 @@ AUTO_BIO: process.env.AUTO_BIO === undefined ? "false" : process.env.AUTO_BIO,
 AUTO_REACT: process.env.AUTO_REACT === undefined ? "true" : process.env.AUTO_REACT,
 HEART_REACT: process.env.HEART_REACT === undefined ? "false" : process.env.HEART_REACT,
 AUTO_STATUS_REPLY: process.env.AUTO_STATUS_REPLY === undefined ? "false" : process.env.AUTO_STATUS_REPLY,
-AUTO_STATUS__MSG: process.env.AUTO_STATUS__MSG === undefined ? "`𝒀𝒐𝒖𝒓 𝒔𝒕𝒂𝒕𝒖𝒔 𝒔𝒆𝒆𝒏 𝒋𝒖𝒔𝒕 𝒏𝒐𝒘 𝒃𝒚 ♥️🌸⃝𝐒𝐔𝐏𝐔𝐍 𝐌𝐃ᥫ᭡👑`" : process.env.AUTO_STATUS__MSG,
+AUTO_STATUS__MSG: process.env.AUTO_STATUS__MSG === undefined ? "`𝒀𝒐𝒖𝒓 𝒔𝒕𝒂𝒕𝒖𝒔 𝒔𝒆𝒆𝒏 𝒋𝒖𝒔𝒕 𝒏𝒐𝒘 𝒃𝒚 ♥️🌸⃝FOX TUBE᭡👑`" : process.env.AUTO_STATUS__MSG,
 WELCOME_MG: process.env.WELCOME_MG === undefined ? "*Enjoy your stay and follow the rules! 😊*" : process.env.WELCOME_MG,
 LEAVE_MG: process.env.LEAVE_MG === undefined ? "*Hope to see you again! 🥺*" : process.env.LEAVE_MG,
 AUTO_ADD_Country_Code: process.env.AUTO_ADD_Country_Code === undefined ? "94" : process.env.AUTO_ADD_Country_Code,
